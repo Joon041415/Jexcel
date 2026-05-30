@@ -46,13 +46,14 @@ pip install PySide6 pandas openpyxl
 python excel_editor.py
 ```
 
-### 실행 파일 빌드 (Windows)
+### 간략 실행 bat
 
-```bash
-pip install pyinstaller
-pyinstaller --onefile --windowed --name "ExcelEditor" excel_editor.py
-# dist/ExcelEditor.exe 생성
+excel.bat 메모장 작성
 ```
+@echo off
+py "파일위치\excel_editor.py"
+```
+
 
 ---
 
